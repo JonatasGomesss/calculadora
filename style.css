@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: linear-gradient( 105deg, rgb(58, 58, 207),  rgb(189, 60, 60));
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:700px;
+}
+.calculadora{
+    display: flex;
+    flex-wrap: wrap ;
+    background-color: rgba(43, 48, 65, 0.692);
+    width: 290px;
+    height: 420px;
+    border-radius: 2%;
+
+}
+   
+#display {
+    background-color: rgba(43, 48, 65, 0);
+    width: 260px;
+    height: 30px;
+    text-decoration: none;
+    margin: 15px 0px 0px 10px;
+    font-size: 24px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    outline: none;
+    text-align: right;
+
+}
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+    height: 370px;
+    padding: 14px 0px;
+    border-radius: 10px;
+}
+.btn{
+    width: 55px;
+    height: 50px;
+    background-color: rgb(107, 157, 213);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right:5px;
+    margin-left:10px;
+}
+.btn-calc{
+
+    width: 55px;
+    height: 50px;
+    background-color: rgb(107, 157, 213);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    
+}
+
+.btn:hover{
+    background-color: rgb(121, 171, 240);
+    color: rgb(48, 53, 58);
+    
+}
+.btn0{
+    width: 125px;
+    height: 50px;
+    background-color: rgb(107, 157, 213);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 1px 8px 5px 9px;
+}
+
+.btn0:hover{
+    background-color: rgb(121, 171, 240);
+    color: rgb(48, 53, 58);
+    
+}
+.operators{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    position: relative;
+    overflow: visible;
+    
+}
+
+.btns{
+    background-color: rgb(107, 157, 213);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 15px 8px 5px 0px;
+    border: none;
+    border-radius: 3px;
+    height: 25px;
+    position: absolute;
+    bottom: 40px;
+    width: 123px;
+    height: 50px;
+    left: -68px;
+    bottom: 40px;
+    
+}
+
+.btnC{
+    background-color: rgb(107, 157, 213);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 15px 8px 5px 0px;
+    border: none;
+    border-radius: 3px;
+    width: 55px;
+    height: 50px;
+    margin:0;
+    position: relative;
+    bottom: 8px;
+    left: 4%;
+    padding: 0;
+}
+
+.btnC:hover{
+    background-color: rgb(121, 171, 240);
+    color: rgb(48, 53, 58);
+}
+
+
